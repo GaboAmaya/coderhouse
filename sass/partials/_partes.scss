@@ -1,0 +1,25 @@
+@use "variables";
+nav{
+    background-color: variables.$colornav;
+}
+
+h2{
+    text-align: center;
+    margin: 10px; 
+}
+
+h3{
+    background:  variables.$colorbordes;
+    border-radius: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: variables.$colorfooter;
+    text-align: center;
+    margin-top: auto;
+}
+

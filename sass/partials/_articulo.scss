@@ -1,0 +1,40 @@
+@use "variables";
+
+.articuloHistoria{
+    margin: 5px 20px;
+    padding: 5px;
+    border-radius: 20px;
+    border-width: 20px;
+    background: variables.$colorbordes;
+}
+
+.articuloResidencia{
+    text-align: center;
+    margin: 20px;
+}
+
+.sectionE{
+    display: flex;
+    justify-content: space-around;
+}
+
+.articuloEspecialidades{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    background: variables.$colorbordes;
+    border-radius: 25px;
+}
+
+@for $contador from 1 through 4 {
+    .ah:nth-child(#{$contador}){
+        animation-delay: $contador*0.4s;
+    }
+}
+
+.articuloindex {
+    color:black;
+    &:hover {
+        background-color: variables.$colorfooter;
+}
+}
