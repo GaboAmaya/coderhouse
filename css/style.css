@@ -1,5 +1,9 @@
 nav {
-  background-color: rgb(243, 233, 213);
+  background-color: rgb(250, 249, 249);
+}
+nav div ul li:hover {
+  background-color: rgba(233, 210, 210, 0.226);
+  border-radius: 10px;
 }
 
 h2 {
@@ -20,6 +24,32 @@ footer {
   background-color: rgba(255, 145, 0, 0.425);
   text-align: center;
   margin-top: auto;
+}
+footer div div a {
+  text-decoration: none;
+  color: black;
+}
+
+.redes {
+  width: 25px;
+  height: 25px;
+  margin: 5px 10px 5px 5px;
+  transition: 1s ease;
+}
+.redes:hover {
+  border-radius: 50%;
+  transition: 1s ease;
+}
+
+.navidad {
+  width: 100px;
+  height: 100px;
+  margin: 5px 10px 5px 5px;
+  transition: 1s ease;
+}
+.navidad:hover {
+  border-radius: 50%;
+  transition: 1s ease;
 }
 
 #tabla {
