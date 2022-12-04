@@ -24,6 +24,9 @@ footer {
   background-color: rgba(255, 145, 0, 0.425);
   text-align: center;
   margin-top: auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 footer div div a {
   text-decoration: none;
@@ -50,6 +53,12 @@ footer div div a {
 .navidad:hover {
   border-radius: 50%;
   transition: 1s ease;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 8em;
 }
 
 #tabla {

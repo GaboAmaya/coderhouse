@@ -25,6 +25,9 @@ footer{
     background-color: variables.$colorfooter;
     text-align: center;
     margin-top: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     div div a{
         text-decoration: none;
         color: black;
@@ -51,4 +54,10 @@ footer{
         border-radius:50%;
         transition: 1s ease;
     }
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 8em;
 }
